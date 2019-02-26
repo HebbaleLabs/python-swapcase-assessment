@@ -45,5 +45,5 @@ class SwapCaseTest(unittest.TestCase):
     assert_expectations()
 
   def test_swap_alphanum(self):
-    expect( lambda: self.assertEqual(swapcharactercase('I often see the time 11:11 or 12:34 on The Big Ben.'), 'i OFTEN SEE THE TIME 11:11 or 12:34 ON tHE bIG bEN.'))
+    expect( lambda: self.assertEqual(swapcharactercase('I often see the time 11:11 or 12:34 on The Big Ben.'), 'i OFTEN SEE THE TIME 11:11 OR 12:34 ON tHE bIG bEN.'))
     assert_expectations()
